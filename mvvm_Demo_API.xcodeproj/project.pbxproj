@@ -11,6 +11,9 @@
 		D3B73C432B39C2C200C15DE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B73C422B39C2C200C15DE0 /* ContentView.swift */; };
 		D3B73C452B39C2C300C15DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B73C442B39C2C300C15DE0 /* Assets.xcassets */; };
 		D3B73C482B39C2C300C15DE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B73C472B39C2C300C15DE0 /* Preview Assets.xcassets */; };
+		D3B73C4F2B39C2E500C15DE0 /* userModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B73C4E2B39C2E500C15DE0 /* userModel.swift */; };
+		D3B73C512B39C2FA00C15DE0 /* userViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B73C502B39C2FA00C15DE0 /* userViewModel.swift */; };
+		D3B73C532B39C30700C15DE0 /* userView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B73C522B39C30700C15DE0 /* userView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		D3B73C422B39C2C200C15DE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3B73C442B39C2C300C15DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3B73C472B39C2C300C15DE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3B73C4E2B39C2E500C15DE0 /* userModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModel.swift; sourceTree = "<group>"; };
+		D3B73C502B39C2FA00C15DE0 /* userViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userViewModel.swift; sourceTree = "<group>"; };
+		D3B73C522B39C30700C15DE0 /* userView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				D3B73C422B39C2C200C15DE0 /* ContentView.swift */,
 				D3B73C442B39C2C300C15DE0 /* Assets.xcassets */,
 				D3B73C462B39C2C300C15DE0 /* Preview Content */,
+				D3B73C4E2B39C2E500C15DE0 /* userModel.swift */,
+				D3B73C502B39C2FA00C15DE0 /* userViewModel.swift */,
+				D3B73C522B39C30700C15DE0 /* userView.swift */,
 			);
 			path = mvvm_Demo_API;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3B73C432B39C2C200C15DE0 /* ContentView.swift in Sources */,
+				D3B73C512B39C2FA00C15DE0 /* userViewModel.swift in Sources */,
+				D3B73C532B39C30700C15DE0 /* userView.swift in Sources */,
 				D3B73C412B39C2C200C15DE0 /* mvvm_Demo_APIApp.swift in Sources */,
+				D3B73C4F2B39C2E500C15DE0 /* userModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
